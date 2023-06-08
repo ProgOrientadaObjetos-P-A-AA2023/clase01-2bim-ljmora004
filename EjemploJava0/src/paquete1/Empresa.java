@@ -30,7 +30,7 @@ public class Empresa {
         double suma = 0;
         for (int i = 0; i < edificios.length; i++) {
         // for (int i = 0; i < obtenerEdificios().length; i++) {
-            suma = suma + edificios[i].obtenerCosto();
+            suma += edificios[i].obtenerCosto();
         }
         
         costoBienesInmuebles = suma;
